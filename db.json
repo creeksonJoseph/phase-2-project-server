@@ -1,0 +1,135 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Hobbit",
+      "synopsis": "A fantasy novel about Bilbo Baggins' unexpected adventure.",
+      "full_description": "Bilbo Baggins joins a company of dwarves to reclaim their mountain home from the dragon Smaug, discovering courage and adventure along the way.",
+      "cover_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMqejpZctU2XaQl_511Axfo94F2xLRpS9gig&s",
+      "author": "J.R.R. Tolkien",
+      "contacts": "user1@email.com",
+      "available": false,
+      "ownerId": "user1"
+    },
+    {
+      "id": "2",
+      "title": "1984",
+      "synopsis": "A dystopian future ruled by surveillance and oppression.",
+      "full_description": "George Orwell's chilling novel about a totalitarian regime and the power of Big Brother.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71kxa1-0mfL._AC_UF1000,1000_QL80_.jpg",
+      "author": "George Orwell",
+      "contacts": "user2@email.com",
+      "available": true,
+      "ownerId": "user2"
+    },
+    {
+      "id": "3",
+      "title": "Atomic Habits",
+      "synopsis": "An easy & proven way to build good habits and break bad ones.",
+      "full_description": "James Clear explains practical strategies to form habits that stick, with science-backed methods and real-life stories.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/91bYsX41DVL._AC_UF1000,1000_QL80_.jpg",
+      "author": "James Clear",
+      "contacts": "143.90.219.157",
+      "available": true,
+      "ownerId": "1"
+    },
+    {
+      "id": "4",
+      "title": "The Alchemist",
+      "synopsis": "A young shepherd embarks on a journey to fulfill his destiny.",
+      "full_description": "Paulo Coelho's spiritual adventure that teaches about listening to your heart and following dreams.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71aFt4+OTOL._AC_UF1000,1000_QL80_.jpg",
+      "author": "Paulo Coelho",
+      "contacts": "198.188.109.160",
+      "available": false,
+      "ownerId": "2"
+    },
+    {
+      "id": "5",
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "synopsis": "A no-BS guide to living a better life by caring less.",
+      "full_description": "Mark Manson delivers a brutally honest take on happiness, struggles, and finding value in the right things.",
+      "cover_image_url": "https://cdnattic.atticbooks.co.ke/img/J705382.jpg",
+      "author": "Mark Manson",
+      "contacts": "131.70.198.118",
+      "available": false,
+      "ownerId": "2"
+    },
+    {
+      "id": "6",
+      "title": "Sapiens: A Brief History of Humankind",
+      "synopsis": "A deep dive into how Homo sapiens came to dominate the Earth.",
+      "full_description": "Yuval Noah Harari explores human history from the Stone Age to the present, blending science, history, and philosophy.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/713jIoMO3UL._AC_UF1000,1000_QL80_.jpg",
+      "author": "Yuval Noah Harari",
+      "contacts": "48.220.141.95",
+      "available": true,
+      "ownerId": "1"
+    },
+    {
+      "id": "7",
+      "title": "Pride and Prejudice",
+      "synopsis": "A timeless novel exploring social class and romance in 19th-century England.",
+      "full_description": "Jane Austen's delightfully scathing satire on class, pride, and proper behavior is as beloved today as it was when first published in 1813.",
+      "cover_image_url": "https://images.unsplash.com/photo-1604866830893-c13cafa515d5?w=500&auto=format&fit=crop&q=60",
+      "author": "Jane Austen",
+      "contacts": "1234567",
+      "available": false,
+      "ownerId": "1"
+    },
+    {
+      "id": "8",
+      "title": "To Kill a Mockingbird",
+      "synopsis": "A Southern Gothic novel tackling racism and justice.",
+      "full_description": "The plot and characters are loosely based on Lee's observations of her family, neighbors, and an event that occurred near her hometown in 1936.",
+      "cover_image_url": "https://images.unsplash.com/photo-1705721357357-ab87523248f7?w=500&auto=format&fit=crop&q=60",
+      "author": "Harper Lee",
+      "contacts": "1234566",
+      "available": true,
+      "ownerId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": "user1",
+      "name": "Current User"
+    },
+    {
+      "id": "user2",
+      "name": "Book Owner"
+    },
+    {
+      "username": "medy",
+      "email": "mannomedy@gmail.com",
+      "password": "12345678",
+      "id": "1wo9Pbz"
+    },
+    {
+      "id": "2d29",
+      "username": "alphachronicles",
+      "email": "alpha@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "requests": [
+    {
+      "id": "req_1753461505659",
+      "bookId": "b16",
+      "requesterId": "user1",
+      "status": "Pending",
+      "bookTitle": "Moby Dick",
+      "requesterName": "Current User",
+      "createdAt": "2025-07-25T16:38:25.660Z"
+    },
+    {
+      "id": "req_1753464007579",
+      "bookId": "b4",
+      "requesterId": "user1",
+      "status": "Accepted",
+      "bookTitle": "To Kill a Mockingbird",
+      "requesterName": "Current User",
+      "createdAt": "2025-07-25T17:20:07.579Z"
+    }
+  ],
+  "borrowedBooks": []
+}
